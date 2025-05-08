@@ -43,7 +43,7 @@ subdirectorios
 ![imagen](https://github.com/user-attachments/assets/c1463707-861f-4351-a9a2-9eafb50ecdc9)
 
 
-7. Cuenta cuántos números son divisibles por 5 ```awk '{for(i=1;i<=NF;i++) if ($i % 5 == 0) print $i}' laboratorio/datos/entrada/numeros.txt``
+7. Cuenta cuántos números son divisibles por 5 ```awk '{for(i=1;i<=NF;i++) if ($i % 5 == 0) print $i}' laboratorio/datos/entrada/numeros.txt```
 
  
  ![imagen](https://github.com/user-attachments/assets/38d04b97-ffe9-47cb-aedb-4f0e1cab6bd9)
@@ -61,7 +61,7 @@ separado  [LINK](https://github.com/Fx2048/laboratorio/blob/main/datos/entrada/p
 "top_procesos.txt"
  [LINK](https://github.com/Fx2048/laboratorio/blob/main/datos/entrada/top_procesos.txt)
 4. Crea un único comando que cuente cuántos archivos hay en el directorio /etc(en este caso opté por /laboratorio)
-```find laboratorio -type f | wc -l``
+```find laboratorio -type f | wc -l```
 11
 
 
