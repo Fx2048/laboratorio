@@ -122,18 +122,28 @@ Muestre un mensaje de éxito con el tamaño del archivo creado
 
 ## Ejercicio 3.3: Reto Final Integrador (15 minutos)
 Desafío: Análisis de Logs del Sistema
+
 A. Crea un script llamado "analisis_logs.sh" que: [LINK](https://github.com/Fx2048/laboratorio/blob/main/datos/entrada/analisis_logs.sh)
 • Busque en el directorio /var/log/ todos los archivos de log (terminados en .log)
+
 • Identifique los 5 archivos de log más grandes
+
 • Cuente las ocurrencias de la palabra "error" (ignorando
 mayúsculas/minúsculas) en cada uno
+
 • Genere un informe en formato markdown en
+
 ~/laboratorio/datos/salida/informe_logs.md con:
 ▪ Fecha y hora del análisis
+
 ▪ Tabla de archivos con: nombre, tamaño y número de errores
+
 ▪ Los 3 últimos errores encontrados en el archivo con más errores
+
 • Muestre un resumen por pantalla
 
 
 ![imagen](https://github.com/user-attachments/assets/71b4964d-ede1-439f-96b7-b19c923fd33e)
 
+
+[Evidencia](https://github.com/Fx2048/laboratorio/tree/main/datos/salida)
