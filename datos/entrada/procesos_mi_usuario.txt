@@ -1,0 +1,97 @@
+avahi       1000  0.0  0.0   8664  4512 ?        Ss   18:03   0:00 avahi-daemon: running [brigitte-VMware-Virtual-Platform.local]
+brigitte    2347  0.0  0.1  21280 12676 ?        Ss   18:04   0:01 /usr/lib/systemd/systemd --user
+brigitte    2350  0.0  0.0  21456  3664 ?        S    18:04   0:00 (sd-pam)
+brigitte    2361  1.0  0.2 125896 16496 ?        S<sl 18:04   0:57 /usr/bin/pipewire
+brigitte    2362  0.0  0.0 106404  5576 ?        Ssl  18:04   0:00 /usr/bin/pipewire -c filter-chain.conf
+brigitte    2368  0.0  0.2 415760 18728 ?        S<sl 18:04   0:00 /usr/bin/wireplumber
+brigitte    2375  0.0  0.2 126844 16564 ?        S<sl 18:04   0:00 /usr/bin/pipewire-pulse
+brigitte    2378  0.0  0.0  11240  6588 ?        Ss   18:04   0:02 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+brigitte    2379  0.0  0.1 325400 10260 ?        SLsl 18:04   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+brigitte    2418  0.0  0.0 694028  7728 ?        Ssl  18:04   0:00 /usr/libexec/xdg-document-portal
+brigitte    2424  0.0  0.0 318280  6344 ?        Ssl  18:04   0:00 /usr/libexec/xdg-permission-store
+brigitte    2450  0.0  0.0 244664  6552 tty2     Ssl+ 18:04   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+brigitte    2455  0.0  0.2 307196 16772 tty2     Sl+  18:04   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+brigitte    2499  0.0  0.0 162652  6884 ?        Ssl  18:04   0:00 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+brigitte    2500  0.0  0.0 100216  5668 ?        Ssl  18:04   0:00 /usr/libexec/gnome-session-ctl --monitor
+brigitte    2514  0.0  0.1 323284  8124 ?        Ssl  18:04   0:00 /usr/libexec/gvfsd
+brigitte    2530  0.0  0.0 468684  7320 ?        Sl   18:04   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+brigitte    2534  0.0  0.2 742912 18700 ?        Ssl  18:04   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+brigitte    2570  0.0  0.0 382940  7680 ?        Sl   18:04   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+brigitte    2573  6.6  4.1 4690520 333660 ?      Ssl  18:04   6:06 /usr/bin/gnome-shell
+brigitte    2584  0.0  0.0   9476  5132 ?        S    18:04   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+brigitte    2653  0.0  0.0 236068  7712 ?        Sl   18:04   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+brigitte    2674  0.0  0.2 654760 17592 ?        Sl   18:04   0:00 /usr/libexec/gnome-shell-calendar-server
+brigitte    2684  0.0  1.1 1384032 89368 ?       Ssl  18:04   0:00 /usr/libexec/evolution-source-registry
+brigitte    2695  0.0  0.3 2679868 27008 ?       Sl   18:04   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+brigitte    2698  0.2  0.1 397820 12484 ?        Ssl  18:04   0:16 /usr/bin/ibus-daemon --panel disable
+brigitte    2699  0.0  0.0 392560  6860 ?        Ssl  18:04   0:00 /usr/libexec/gsd-a11y-settings
+brigitte    2701  0.0  0.2 422420 21136 ?        Ssl  18:04   0:00 /usr/libexec/gsd-color
+brigitte    2704  0.0  0.1 440716 12640 ?        Ssl  18:04   0:00 /usr/libexec/gsd-datetime
+brigitte    2708  0.0  0.1 467916  8100 ?        Ssl  18:04   0:00 /usr/libexec/gsd-housekeeping
+brigitte    2713  0.0  0.2 494996 20244 ?        Ssl  18:04   0:00 /usr/libexec/gsd-keyboard
+brigitte    2715  0.0  0.3 603580 25888 ?        Ssl  18:04   0:00 /usr/libexec/gsd-media-keys
+brigitte    2717  0.0  0.3 532956 24820 ?        Ssl  18:04   0:00 /usr/libexec/gsd-power
+brigitte    2718  0.0  0.1 332456 11320 ?        Ssl  18:04   0:00 /usr/libexec/gsd-print-notifications
+brigitte    2719  0.0  0.0 540124  7096 ?        Ssl  18:04   0:00 /usr/libexec/gsd-rfkill
+brigitte    2722  0.0  0.0 318388  6384 ?        Ssl  18:04   0:00 /usr/libexec/gsd-screensaver-proxy
+brigitte    2725  0.0  0.1 552232 12000 ?        Ssl  18:04   0:00 /usr/libexec/gsd-sharing
+brigitte    2728  0.0  0.1 394860  8316 ?        Ssl  18:04   0:00 /usr/libexec/gsd-smartcard
+brigitte    2731  0.0  0.1 402680  9860 ?        Ssl  18:04   0:00 /usr/libexec/gsd-sound
+brigitte    2732  0.0  0.2 495844 20952 ?        Ssl  18:04   0:00 /usr/libexec/gsd-wacom
+brigitte    2777  0.0  1.3 1001288 109964 ?      Sl   18:04   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+brigitte    2805  0.0  0.0 305624  7352 ?        Sl   18:04   0:00 /usr/libexec/gsd-disk-utility-notify
+brigitte    2831  0.9  0.5 228336 43028 ?        Sl   18:04   0:52 /usr/bin/vmtoolsd -n vmusr --blockFd 3 --uinputFd 4
+brigitte    2868  0.0  0.1 472196 11468 ?        Ssl  18:04   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+brigitte    2914  0.0  0.0 319440  7512 ?        Sl   18:04   0:00 /usr/libexec/ibus-dconf
+brigitte    2917  0.0  0.3 430892 30060 ?        Sl   18:04   0:03 /usr/libexec/ibus-extension-gtk3
+brigitte    2925  0.0  0.0 319256  7268 ?        Sl   18:04   0:00 /usr/libexec/ibus-portal
+brigitte    2957  0.0  0.1 425032 15168 ?        Sl   18:04   0:00 /usr/libexec/gsd-printer
+brigitte    2993  0.0  0.0 319560  6852 ?        Ssl  18:04   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+brigitte    3004  0.0  0.3 555564 24556 ?        Sl   18:04   0:00 /usr/libexec/goa-daemon
+brigitte    3007  0.0  0.0 318600  6528 ?        Ssl  18:04   0:00 /usr/libexec/gvfs-goa-volume-monitor
+brigitte    3018  0.0  0.1 398116  9272 ?        Sl   18:04   0:00 /usr/libexec/goa-identity-service
+brigitte    3025  0.0  0.3 899724 24820 ?        Ssl  18:04   0:00 /usr/libexec/evolution-calendar-factory
+brigitte    3028  0.0  0.0 318592  6568 ?        Ssl  18:04   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+brigitte    3036  0.0  0.0 398204  7960 ?        Ssl  18:04   0:01 /usr/libexec/gvfs-afc-volume-monitor
+brigitte    3042  0.0  1.0 257812 84884 ?        S    18:04   0:01 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.OYL852 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+brigitte    3053  0.0  0.3 834424 30316 ?        Ssl  18:04   0:00 /usr/libexec/evolution-addressbook-factory
+brigitte    3091  0.0  0.0 245744  7776 ?        Sl   18:04   0:05 /usr/libexec/ibus-engine-simple
+brigitte    3112  0.0  0.0 230228  5744 ?        Ssl  18:04   0:00 /usr/libexec/dconf-service
+brigitte    3122  0.0  0.0 245176  6524 ?        Ssl  18:04   0:00 /usr/libexec/gvfsd-metadata
+brigitte    3123  0.0  0.1 618460  9340 ?        Sl   18:04   0:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+brigitte    3124  0.0  0.1  39128 11868 ?        Ss   18:04   0:00 /snap/snapd-desktop-integration/253/usr/bin/snapd-desktop-integration
+brigitte    3204  0.0  0.3 429756 30660 ?        Sl   18:04   0:00 /snap/snapd-desktop-integration/253/usr/bin/snapd-desktop-integration
+brigitte    3228  0.0  0.3 957312 29240 ?        SNsl 18:04   0:00 /usr/libexec/tracker-miner-fs-3
+brigitte    3244  0.0  0.3 2679784 27776 ?       Sl   18:04   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+brigitte    3261  0.0  0.1 710568 14784 ?        Ssl  18:04   0:00 /usr/libexec/xdg-desktop-portal
+brigitte    3266  0.0  1.0 1086332 87956 ?       Ssl  18:04   0:00 /usr/libexec/xdg-desktop-portal-gnome
+brigitte    3274  0.0  0.9 649940 80044 ?        Ssl  18:04   0:00 /usr/libexec/gsd-xsettings
+brigitte    3379  0.0  0.3 427280 26740 ?        Ssl  18:04   0:00 /usr/libexec/xdg-desktop-portal-gtk
+brigitte    3387  0.0  0.3 276528 25692 ?        Sl   18:04   0:00 /usr/libexec/ibus-x11
+brigitte    3393  0.0  1.0 730244 86052 ?        Sl   18:04   0:00 /usr/libexec/mutter-x11-frames
+brigitte    3489  9.3 10.1 12491872 817420 ?     Sl   18:04   8:34 /snap/firefox/5751/usr/lib/firefox/firefox
+brigitte    3651  0.0  0.6 217584 49572 ?        Sl   18:04   0:00 /snap/firefox/5751/usr/lib/firefox/firefox -contentproc -parentBuildID 20250211160552 -prefsHandle 0 -prefsLen 32451 -prefMapHandle 1 -prefMapSize 261627 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {1de07eee-3852-41ee-aafb-cf7af047181a} -parentPid 3489 -crashReporter 5 -appDir /snap/firefox/5751/usr/lib/firefox/browser 1 socket
+brigitte    3673  0.1  1.7 2494172 144900 ?      Sl   18:04   0:07 /snap/firefox/5751/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 32576 -prefMapHandle 1 -prefMapSize 261627 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250211160552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f40523f3-b7ab-4be7-90b5-3c3be1f6b308} -parentPid 3489 -crashReporter 6 -greomni /snap/firefox/5751/usr/lib/firefox/omni.ja -appomni /snap/firefox/5751/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5751/usr/lib/firefox/browser 2 tab
+brigitte    3681  0.0  1.2 445016 98688 ?        Sl   18:04   0:01 /snap/firefox/5751/usr/lib/firefox/firefox -contentproc -parentBuildID 20250211160552 -prefsHandle 0 -prefsLen 32576 -prefMapHandle 1 -prefMapSize 261627 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {1c13ed63-2654-4761-ad55-08c200f074b2} -parentPid 3489 -crashReporter 5 -appDir /snap/firefox/5751/usr/lib/firefox/browser 3 rdd
+brigitte    3722  0.0  0.3 1839420 24536 ?       Sl   18:04   0:00 /usr/bin/snap userd
+brigitte    4031  0.0  1.1 2441408 93452 ?       Sl   18:04   0:01 /snap/firefox/5751/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 40557 -prefMapHandle 1 -prefMapSize 261627 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250211160552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d220f577-fb26-407a-b11d-dc99994336ee} -parentPid 3489 -crashReporter 6 -greomni /snap/firefox/5751/usr/lib/firefox/omni.ja -appomni /snap/firefox/5751/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5751/usr/lib/firefox/browser 4 tab
+brigitte    4226  0.0  0.7 352292 59004 ?        Sl   18:04   0:00 /snap/firefox/5751/usr/lib/firefox/firefox -contentproc -parentBuildID 20250211160552 -sandboxingKind 0 -prefsHandle 0 -prefsLen 40668 -prefMapHandle 1 -prefMapSize 261627 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {c5526d05-e2e2-449c-88b7-f9cdb6f204c5} -parentPid 3489 -crashReporter 5 -appDir /snap/firefox/5751/usr/lib/firefox/browser 5 utility
+brigitte    4234  0.5  2.8 2646912 227984 ?      Sl   18:04   0:29 /snap/firefox/5751/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 37122 -prefMapHandle 1 -prefMapSize 261627 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250211160552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {84320fcf-63dc-4025-856f-f24c37178d59} -parentPid 3489 -crashReporter 6 -greomni /snap/firefox/5751/usr/lib/firefox/omni.ja -appomni /snap/firefox/5751/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5751/usr/lib/firefox/browser 6 tab
+brigitte    4291  0.9  1.8 2502688 148272 ?      Sl   18:04   0:51 /snap/firefox/5751/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 37312 -prefMapHandle 1 -prefMapSize 261627 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250211160552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {fe26632a-1d3a-4079-9461-3d5accbb9596} -parentPid 3489 -crashReporter 6 -greomni /snap/firefox/5751/usr/lib/firefox/omni.ja -appomni /snap/firefox/5751/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5751/usr/lib/firefox/browser 8 tab
+brigitte    4310  0.3  2.4 2651808 198084 ?      Sl   18:04   0:20 /snap/firefox/5751/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 37312 -prefMapHandle 1 -prefMapSize 261627 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250211160552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {1aebb040-a437-4faf-ba08-209bc9dbec8a} -parentPid 3489 -crashReporter 6 -greomni /snap/firefox/5751/usr/lib/firefox/omni.ja -appomni /snap/firefox/5751/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5751/usr/lib/firefox/browser 9 tab
+brigitte    4388  0.0  0.4 578720 34016 ?        Sl   18:05   0:00 /usr/bin/update-notifier
+brigitte    5444  3.7  3.2 2774012 259912 ?      Sl   18:10   3:11 /snap/firefox/5751/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 37487 -prefMapHandle 1 -prefMapSize 261627 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250211160552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f7279cd4-b394-48c9-b47e-ef7364881fdd} -parentPid 3489 -crashReporter 6 -greomni /snap/firefox/5751/usr/lib/firefox/omni.ja -appomni /snap/firefox/5751/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5751/usr/lib/firefox/browser 10 tab
+brigitte   17962  0.6  0.7 712136 61452 ?        Ssl  18:36   0:22 /usr/libexec/gnome-terminal-server
+brigitte   17970  0.0  0.0  22096  7536 pts/0    Ss   18:36   0:00 bash
+brigitte   18052  0.0  1.4 2449704 113196 ?      Sl   18:37   0:02 /snap/firefox/5751/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 37487 -prefMapHandle 1 -prefMapSize 261627 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250211160552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {77a96586-9bd5-4226-a662-89834ca5601a} -parentPid 3489 -crashReporter 6 -greomni /snap/firefox/5751/usr/lib/firefox/omni.ja -appomni /snap/firefox/5751/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5751/usr/lib/firefox/browser 14 tab
+brigitte   18128  0.3  2.0 2513340 164312 ?      Sl   18:37   0:11 /snap/firefox/5751/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 37488 -prefMapHandle 1 -prefMapSize 261627 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250211160552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {ac93800e-ce3d-430e-9c2c-52cb889572e1} -parentPid 3489 -crashReporter 6 -greomni /snap/firefox/5751/usr/lib/firefox/omni.ja -appomni /snap/firefox/5751/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5751/usr/lib/firefox/browser 16 tab
+brigitte   18162  0.0  2.0 2525972 167820 ?      Sl   18:38   0:03 /snap/firefox/5751/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 37488 -prefMapHandle 1 -prefMapSize 261627 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250211160552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e0c4562-605f-459e-909d-d1bd9b5895a4} -parentPid 3489 -crashReporter 6 -greomni /snap/firefox/5751/usr/lib/firefox/omni.ja -appomni /snap/firefox/5751/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5751/usr/lib/firefox/browser 17 tab
+brigitte   18339  0.3  2.9 2610572 241664 ?      Sl   18:45   0:11 /snap/firefox/5751/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 37488 -prefMapHandle 1 -prefMapSize 261627 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250211160552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {44988c77-c950-484c-bb80-7116a7b9f05f} -parentPid 3489 -crashReporter 6 -greomni /snap/firefox/5751/usr/lib/firefox/omni.ja -appomni /snap/firefox/5751/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5751/usr/lib/firefox/browser 18 tab
+brigitte   18387  0.0  0.9 2409204 76532 ?       Sl   18:45   0:00 /snap/firefox/5751/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 37488 -prefMapHandle 1 -prefMapSize 261627 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250211160552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {c087312f-f748-443a-816d-8de4a66c8b46} -parentPid 3489 -crashReporter 6 -greomni /snap/firefox/5751/usr/lib/firefox/omni.ja -appomni /snap/firefox/5751/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5751/usr/lib/firefox/browser 19 tab
+brigitte   18623  0.0  0.0  17964  2364 pts/0    T    18:55   0:00 grep --color=auto .txt
+brigitte   18703  0.0  0.0  22044  7864 pts/1    Ss+  19:00   0:00 bash
+brigitte   19012  0.0  0.9 2409204 76392 ?       Sl   19:18   0:00 /snap/firefox/5751/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 37488 -prefMapHandle 1 -prefMapSize 261627 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250211160552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {c4d08a06-bee8-4092-a2fd-5354d3bb72ec} -parentPid 3489 -crashReporter 6 -greomni /snap/firefox/5751/usr/lib/firefox/omni.ja -appomni /snap/firefox/5751/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5751/usr/lib/firefox/browser 20 tab
+brigitte   19207  0.1  0.7 3155716 62676 ?       Sl   19:28   0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+brigitte   19308  0.0  0.9 2409200 76676 ?       Sl   19:29   0:00 /snap/firefox/5751/usr/lib/firefox/firefox -contentproc -isForBrowser -prefsHandle 0 -prefsLen 37488 -prefMapHandle 1 -prefMapSize 261627 -jsInitHandle 2 -jsInitLen 253512 -parentBuildID 20250211160552 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5918ffe2-efae-49f6-8aa4-e52eca5fd674} -parentPid 3489 -crashReporter 6 -greomni /snap/firefox/5751/usr/lib/firefox/omni.ja -appomni /snap/firefox/5751/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/5751/usr/lib/firefox/browser 21 tab
+brigitte   19420  200  0.0  22676  5040 pts/0    R+   19:36   0:00 ps aux
+brigitte   19421  0.0  0.0  17964  2364 pts/0    S+   19:36   0:00 grep --color=auto brigitte
