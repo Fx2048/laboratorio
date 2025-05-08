@@ -53,7 +53,7 @@ separado  [LINK](https://github.com/Fx2048/laboratorio/blob/main/datos/entrada/p
 Solo tú puedas leer y escribir el archivo (no ejecutar)
 Nadie más pueda hacer nada con él
 5. Crea un directorio "compartido" que cualquiera pueda leer, pero sólo tú
-modificar
+modificar (FOTO)
 6. Verifica los permisos utilizando ls -la
 
 
@@ -64,11 +64,11 @@ modificar
 ## Ejercicio 3.1: Procesos y Monitoreo (15 minutos)
 ## Ejercicio 6 para desarrollar:
 1. Ejecuta un comando ping a google.com en segundo plano, redirigiendo su
-salida a "ping_log.txt"
+salida a "ping_log.txt" FOTO()
 2. Ejecuta el comando top y aprende a:
 Ordenar procesos por uso de CPU
 Ordenar procesos por uso de memoria
-Filtrar para ver solo tus procesos
+Filtrar para ver solo tus procesos (FOTO)
 3. Identifica el PID del proceso ping que iniciaste y termínalo correctamente
 4. Verifica que el archivo de log contiene información
 
@@ -77,20 +77,20 @@ Filtrar para ver solo tus procesos
 
 ## Ejercicio 3.2: Scripts Básicos y Automatización (15 minutos)
 ## Ejercicio 7 para desarrollar:
-1. Crea un script llamado "backup.sh" que:
+1. Crea un script llamado "backup.sh" que: [LINK](https://github.com/Fx2048/laboratorio/blob/main/datos/entrada/backup.sh)
 Reciba como parámetro un directorio
-Cree un archivo tar.gz con el contenido de ese directorio
-Coloque el archivo comprimido en ~/laboratorio/respaldo/
+Cree un archivo tar.gz con el contenido de ese directorio [LINK](https://github.com/Fx2048/laboratorio/tree/main/respald)
+Coloque el archivo comprimido en ~/laboratorio/respald/ [LINK](https://github.com/Fx2048/laboratorio/blob/main/respald/Documentos.tar.gz)
 Muestre un mensaje de éxito con el tamaño del archivo creado
 2. Prueba el script con diferentes directorios
-3. Modifica el script para añadir la fecha actual al nombre del archivo de respaldo
+3. Modifica el script para añadir la fecha actual al nombre del archivo de respaldo[LINK](https://github.com/Fx2048/laboratorio/blob/main/respald/Imagenes_20250507_200511.tar.gz)
 
 
 
 
 ## Ejercicio 3.3: Reto Final Integrador (15 minutos)
 Desafío: Análisis de Logs del Sistema
-A. Crea un script llamado "analisis_logs.sh" que:
+A. Crea un script llamado "analisis_logs.sh" que: [LINK](https://github.com/Fx2048/laboratorio/blob/main/datos/entrada/analisis_logs.sh)
 • Busque en el directorio /var/log/ todos los archivos de log (terminados en .log)
 • Identifique los 5 archivos de log más grandes
 • Cuente las ocurrencias de la palabra "error" (ignorando
