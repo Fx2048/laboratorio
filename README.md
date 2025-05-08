@@ -133,3 +133,7 @@ mayúsculas/minúsculas) en cada uno
 ▪ Tabla de archivos con: nombre, tamaño y número de errores
 ▪ Los 3 últimos errores encontrados en el archivo con más errores
 • Muestre un resumen por pantalla
+
+
+![imagen](https://github.com/user-attachments/assets/71b4964d-ede1-439f-96b7-b19c923fd33e)
+
